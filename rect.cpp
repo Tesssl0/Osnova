@@ -37,18 +37,19 @@ double calculateDiagonalLength(Rectangle rect) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Rus");
     Rectangle myRectangle;
 
-    cout << "Enter the width of the rectangle: ";
+    cout << "Введите ширину прямоугольника: ";
     cin >> myRectangle.width;
 
-    cout << "Enter the height of the rectangle: ";
+    cout << "Введите высоту прямоугольника: ";
     cin >> myRectangle.height;
 
     // Вычисление и вывод параметров прямоугольника
-    cout << "Perimeter of the rectangle: " << calculatePerimeter(myRectangle) << endl;
-    cout << "Area of the rectangle: " << calculateArea(myRectangle) << endl;
-    cout << "Diagonal length of the rectangle: " << calculateDiagonalLength(myRectangle) << endl;
+    cout << "Периметр прямоугольника: " << calculatePerimeter(myRectangle) << endl;
+    cout << "Площадь прямоугольника: " << calculateArea(myRectangle) << endl;
+    cout << "Длина диагонали прямоугольника: " << calculateDiagonalLength(myRectangle) << endl;
 
     return 0;
 }
