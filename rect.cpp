@@ -50,6 +50,6 @@ int main() {
     cout << "Периметр прямоугольника: " << calculatePerimeter(myRectangle) << endl;
     cout << "Площадь прямоугольника: " << calculateArea(myRectangle) << endl;
     cout << "Длина диагонали прямоугольника: " << calculateDiagonalLength(myRectangle) << endl;
-
+	
     return 0;
 }
